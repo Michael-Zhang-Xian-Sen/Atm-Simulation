@@ -1,0 +1,14 @@
+/* 服务选项区域 */
+.serve-option{
+    height: 55%;
+}
+
+/* 提示信息区域 */
+.tips-text{
+    height: 25%;
+}
+
+/* 按钮点击区域 */
+.tips-btn{
+    height: 20%;
+}

@@ -1,0 +1,81 @@
+/* 全局样式 */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.hide{
+    display: none;
+    visibility:hidden
+}
+
+.block{
+    display: block;
+}
+
+a:link{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    color: #04859D;
+}
+
+body{
+    background-color: #a7d7e3;
+}
+
+/* nav栏 */
+nav h1{
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* 内容栏目 */
+.serve-1{
+    height: 60%;
+    padding:0 50px;
+}
+
+/* 测试用 加border */
+/* .serve-option,.serve-tips,.tips-btn,.tips-text{
+    border: 1px solid #000000;
+} */
+
+.message p{
+    margin: 0;
+}
+
+.message-containt{
+    height: 60px;
+    width: 100%;
+}
+
+.message-center{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ATM菜单 */
+.atm-serve-1{
+    height: 100%;
+    width: 100%;
+}
+
+.atm-serve-1 ul li{
+    font-size: 20px;
+    margin:5px 0;
+    list-style: none;
+}
+
+/* wait移动至check.css */
+/* 插卡按钮 */
+.buttonCard1{
+    position: relative;
+    left:20px;
+}
